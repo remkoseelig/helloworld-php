@@ -29,5 +29,12 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Hello_world_c.svg/640px-Hello_world_c.svg.png">
       </div>
   </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-centered">
+        Hostname: <?php echo gethostname(); ?></br>
+      </div>
+  </div>
+
 </body>
 </html>
