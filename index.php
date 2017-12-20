@@ -32,7 +32,8 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-centered">
-        Hostname: <?php echo gethostname(); ?></br>
+        Hostname: <?php echo gethostname(); ?><br/>
+      IP Address: <?php echo getHostByName(getHostName()); ?><br/>
       </div>
   </div>
 
