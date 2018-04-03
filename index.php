@@ -10,6 +10,10 @@
 </head>
 <body>
   <style>
+    body {
+      background-color: #0000ff;
+      color: #ffffff;
+    }
     #devon {
       margin-top: 50px;
       margin-bottom: 150px;
