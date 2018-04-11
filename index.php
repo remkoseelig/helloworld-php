@@ -35,7 +35,7 @@
       <div class="col-centered">
         Hostname: <?php echo gethostname(); ?><br/>
         IP Address: <?php echo getHostByName(getHostName()); ?><br/>
-        Label: <?php echo getenv('label'); ?><br/>
+        Label: '<?php echo getenv('label'); ?>'<br/>
       </div>
   </div>
 
